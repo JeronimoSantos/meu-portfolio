@@ -44,7 +44,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 80px;
+    gap: 65px;
 }
 
 .apresentacao__conteudo{

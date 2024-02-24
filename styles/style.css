@@ -55,33 +55,17 @@ body{
 }
 
 .apresentacao__conteudo__titulo{
-    font-size: 2.25rem;
+    font-size: 1.85rem;
     font-family: var(--fonte-primaria);
 }
 .titulo-destaque{
     color: var(--cor-segundaria);
 }
 
-.apresentacao__conteudo__titulo__about {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    font-size: 2.5rem;
-    font-family: var(--fonte-primaria);
-}
-
 .apresentacao__conteudo__texto{
-    font-size: 2rem;
+    font-size: 1.85rem;
     font-family: var(--fonte-secundaria);
     text-align: center;
-}
-
-.apresentacao__conteudo__texto__curriculo {
-    display: flex;
-    flex-direction: column;
-    font-size: 2rem;
-    font-family: var(--fonte-secundaria);
-    gap: 16px;
 }
 
 .apresentacao__butoes{

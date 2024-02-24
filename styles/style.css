@@ -37,7 +37,7 @@ body{
     font-weight: 600;
     color: var(--cor-segundaria);
     text-decoration: none;
-    gap: 10px;
+    gap: 5px;
 }
 .apresentacao{
     padding: 5% 15%;

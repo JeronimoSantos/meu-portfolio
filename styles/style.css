@@ -4,7 +4,7 @@
     --cor-primaria: #F6F6F6;
     --cor-segundaria: #02416d;
     --cor-terciaria: #6aafbf;
-    --cor-quaternário: #000000;
+    --cor-quaternário: #2c2828;
 
     --fonte-primaria: 'Krona One', sans-serif;
     --fonte-secundaria:'Montserrat', sans-serif;
@@ -20,6 +20,7 @@ body{
     box-sizing: border-box;
     background-color: var(--cor-terciaria);
     color: var(--cor-primaria);
+    cursor: url("../assets/img/cursor.png"), auto;
 }
 .cabecalho{
     padding: 2% 0% 0% 15%;
@@ -38,7 +39,13 @@ body{
     color: var(--cor-segundaria);
     text-decoration: none;
     gap: 5px;
+    cursor: url("../assets/img/cursor.png"), auto;
 }
+
+.cabecalho__menu__link:hover {
+    color: #4fe0e5;
+}
+
 .apresentacao{
     padding: 5% 15%;
     display: flex;
@@ -97,6 +104,7 @@ body{
     color: var(--cor-primaria);
     font-family: var(--fonte-secundaria);
     align-items: center;
+    cursor: url("../assets/img/cursor.png"), auto;
 }
 
 .apresentacao__butoes__links:hover {

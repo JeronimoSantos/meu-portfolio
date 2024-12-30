@@ -2,49 +2,118 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <link rel="shortcut icon" href="./assets/img/letra-j.png" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/img/letra-j.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="./styles/style.css">
     <title>Portfolio - Jerônimo S.Rodrigues</title>
 </head>
 <body>
 
-    <header class="cabecalho">
+<!--  -->
+<header class="cabecalho">
 
-        <nav class="cabecalho__menu">
-            <a class="cabecalho__menu__link" href="index.html">
-                <img src="./assets/casa.png"> Home</a>
-            <a class="cabecalho__menu__link" href="about.html">
-                <img src="./assets/pessoa.png"> Sobre Mim</a>
-            <a class="cabecalho__menu__link" href="curriculo.html">
-                <img src="./assets/email.png"> Currículo</a>
-        </nav>
+<!--  -->
+    <nav class="cabecalho__menu">
+        <a class="cabecalho__menu__link" target="_self" href="index.html" title="Home">
+            <i class="fa-solid fa-house link"></i> Home</a>
+        <a class="cabecalho__menu__link" target="_self" href="about.html" title="About">
+            <i class="fa-solid fa-user link"></i> Sobre Mim</a>
+        <a class="cabecalho__menu__link" target="_self" href="curriculo.html" title="Projetos">
+            <i class="fa-solid fa-briefcase link"></i> Projetos</a>
+    </nav>
+</header>
 
-    </header>
+<!--  -->
+<main class="apresentacao">
 
-    <main class="apresentacao">
+<!--  -->
+    <section class="apresentacao__conteudo">
 
-        <section class="apresentacao__conteudo">
-                <h1 class="apresentacao__conteudo__titulo"><strong class="titulo-destaque">Hello World!</strong> Bem vindos ao meu mundo paralelo, um lugar repleto de códigos e aplicações onde <strong class="titulo-destaque">ideas separados unidas criam projetos incríveis!</strong></h1>
-                <p class="apresentacao__conteudo__texto"> <strong class="titulo-destaque">Hello World!</strong> Eu sou Jerônimo Santos Rodrigues, futuro desenvolvedor Front-end com especialidade em <strong class="titulo-destaque">React, HTML, CSS e Javascript </strong> e muito mais.</p>
-            <div class="apresentacao__butoes">
-                <h2 class="apresentacao__butoes__subtitulo">Acesse minhas redes:</h2>
-                <a class="apresentacao__butoes__links" href="https://www.linkedin.com/in/jer%C3%B4nimo-s-rodrigues-dev/">
-                   <img src="./assets/linkedin.png"> Linkedin</a>
-                <a class="apresentacao__butoes__links" href="https://github.com/JeronimoSantos">
-                    <img src="./assets/github.png"> GitHub</a>
-                <a class="apresentacao__butoes__links" href="https://www.instagram.com/jeronimo_santos_oficial/">
-                    <img src="./assets/instagram.png"> Instagram</a>
-            </div>
-
+<!--  -->
+        <section>
+            <!--<h1 class="apresentacao__conteudo__titulo"><strong class="titulo-destaque">Hello World!</strong> Bem vindos ao meu mundo paralelo, um lugar repleto de códigos e aplicações onde <strong class="titulo-destaque">ideas separados unidas criam projetos incríveis!</strong></h1>-->
+            <p class="apresentacao__conteudo__texto">Jerônimo Santos Rodrigues</p>
+            <p class="apresentacao__conteudo__texto"> < Desenvolvedor Front-end /> </p>
         </section>
-        <img  class="apresentacao__imagem" src="./assets/jeronimopng.jpg" alt="Rosto de um homem em preto e branco">
 
-    </main>
+<!--  -->
+        <section class="apresentacao__butoes">
+            <a class="apresentacao__butoes__links" target="_blank" href="https://www.linkedin.com/in/jeronimo-s-rodrigues-dev/" title="Linkedin">
+                <i class="fa-brands fa-linkedin link"></i></a>
+            <a class="apresentacao__butoes__links" target="_blank" href="https://github.com/JeronimoSantos" title="GitHub">
+                <i class="fa-brands fa-github link"></i></a>
+            <a class="apresentacao__butoes__links" target="_blank" href="https://www.instagram.com/jeronimo_santos_oficial/" title="Instagram">
+                <i class="fa-brands fa-instagram link"></i></a>
+        </section>
+    </section>
 
-    <footer class="rodape">
-        <p>Desenvolvido por Jerônimo S.Rodrigues.</p>
-        <p>&copy; 2024 Portifolio - Todos os direitos reservados.</p>
-    </footer>
+<!--  -->
+    <section class="about-container">
+
+<!--  -->
+        <section class="about-title">
+            <h3 class="title-content">Um pouco sobre mim</h3>
+        </section>
+
+<!--  -->
+        <section class="about-par">
+            <p class="par-content">
+                Estudo a mais de um ano tecnologia, desenvolvendo sites modernos, completos e unicos nos meus projetos.
+                Gosto de fazer projetos pessoais, gosto de jogos, práticar atividade física e de leitura. 
+            </p>
+
+            <p class="par-content">
+                Suco de manga é bom, mas eu prefiro de coco com morango mais granulado 
+            </p>
+        </section>
+
+<!--  -->
+        <section class="ferramentas-container">
+
+<!--  -->
+            <section class="title-ferrament">
+                <h3 class="title-content">Ferramentas</h3>
+            </section>
+
+<!--  -->
+            <section class="ferramenta-tec">
+                <i class="fa-brands fa-html5 tec" title="HTML5"></i>
+                <i class="fa-brands fa-css3-alt tec" title="CSS3"></i>
+                <i class="fa-brands fa-js tec" title="JAVASCRIPT"></i>
+                <i class="fa-brands fa-react tec" title="REACT"></i>
+                <i class="fa-brands fa-figma tec" title="FIGMA"></i>
+                <i class="fa-brands fa-git tec" title="GIT"></i>
+            </section>
+        </section>
+    </section>
+
+<!--  -->
+
+    <h2>Projetos</h2>
+    <section class="project-container">
+<!--  -->
+        <section class="project-content">
+                <h3 class="title-project">Preservação da Biodiversidade</h3>
+                <p class="par-project">Um projeto desenvolvido em grupo para trazer<br> soluções para um problema real como conclusão<br> de modulo.</p>
+                <section class="links-project-content">
+                    <a class="links-project" target="_blank" href="https://pda-preservacao-da-biodiversidade.vercel.app/index.html">Deploy</a>
+                    <a class="links-project" target="_blank" href="https://github.com/JeronimoSantos/PDA-Preservacao-da-Biodiversidade">GitHub</a>
+                </section>
+        </section>
+
+        <section class="">
+            <section>
+                <img class="img-project" src="./assets/img/biodiversidade verde.png"/>
+            </section>
+        </section>
+    </section>
+</main>
+
+<!--  -->
+<footer class="rodape">
+    <p>Desenvolvido por Jerônimo S.Rodrigues. <i class="fa-solid fa-feather"></i></p>
+    <p>&copy; 2024 Portifolio - Todos os direitos reservados. </p>
+</footer>
 </body>
 </html>

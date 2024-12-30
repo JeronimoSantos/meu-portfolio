@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+@import url("./styles/cabecalho.css");
+@import url("./styles/main.css");
+@import url("./styles/footer.css");
+
+:root {
+    --cor-primaria: #F6F6F6;
+    --cor-segundaria: #02416d;
+    --cor-terciaria: #6aafbf;
+    --cor-quaternário: #2c2828;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: url("../assets/img/cursor.png"), auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to left, #e6e6e6, #cfd5e1, #a1a1a1, #838689, #a6aec1);
+}
+
+@media (max-width: 1300px) {
+    .cabecalho {
+        padding: 10%;
+    }
+    
+    .cabecalho__menu {
+        justify-content: center;
+    }
+
+    .apresentacao {
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .apresentacao__conteudo {
+        width: auto;
+    }
+}

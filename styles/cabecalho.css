@@ -1,0 +1,25 @@
+.cabecalho{
+    padding: 2% 0% 0% 15%;
+
+}
+
+.cabecalho__menu{
+    display: flex;
+    gap: 70px;
+}
+
+.cabecalho__menu__link{
+    display: flex;
+    align-items: center;
+    font-family: var(--fonte-secundaria);
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--cor-segundaria);
+    text-decoration: none;
+    gap: 5px;
+    cursor: url("../assets/img/cursor.png"), auto;
+}
+
+.cabecalho__menu__link:hover {
+    color: #4fe0e5;
+}

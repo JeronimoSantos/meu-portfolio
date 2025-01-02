@@ -2,6 +2,7 @@
 
 @import url("./styles/cabecalho.css");
 @import url("./styles/main.css");
+@import url("./styles/project.css");
 @import url("./styles/footer.css");
 
 :root {
@@ -20,7 +21,7 @@
 }
 
 body {
-    background-image: linear-gradient(to left, #e6e6e6, #cfd5e1, #a1a1a1, #838689, #a6aec1);
+    background-image: linear-gradient(to left, #b3b4d5, #c2c2df, #cfcfcf);
 }
 
 @media (max-width: 1300px) {
@@ -33,7 +34,7 @@ body {
     }
 
     .apresentacao {
-        flex-direction: column-reverse;
+        flex-direction: column;
         padding: 5%;
     }
 

@@ -24,21 +24,26 @@ body {
     background-image: linear-gradient(to left, #b3b4d5, #c2c2df, #cfcfcf);
 }
 
-@media (max-width: 1300px) {
+@media screen and (max-width: 500px) {
     .cabecalho {
-        padding: 10%;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        gap: 0;
     }
-    
+
     .cabecalho__menu {
-        justify-content: center;
+        gap: 2px;
     }
 
-    .apresentacao {
-        flex-direction: column;
-        padding: 5%;
+    .cabecalho__menu__link {
+        flex-direction: row;
+        gap: 0;
+        padding: 0;
+        margin: 0;
     }
 
-    .apresentacao__conteudo {
-        width: auto;
+    .link {
+        display: none;
     }
 }
